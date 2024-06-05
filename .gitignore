@@ -1,0 +1,38 @@
+# Composer dependencies
+/vendor/
+
+# Logs and cache
+*.log
+*.cache
+*.temp
+*.tmp
+
+# Environment variables
+.env
+
+# PHPStorm project files
+.idea/
+
+# Laravel specific
+/public/storage
+/storage/*.key
+/storage/debugbar
+/storage/app/public
+
+# Symfony specific
+/var/
+/vendor/
+/var/logs/
+/var/cache/
+/var/sessions/
+/app/config/parameters.yml
+
+# CakePHP specific
+/tmp
+/logs
+/lib/Cake/Console/Templates/skel/tmp
+/lib/Cake/Console/Templates/skel/logs
+
+# Miscellaneous
+.DS_Store
+Thumbs.db

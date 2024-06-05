@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgba(0, 0, 0, 0.528);
+}
+.container
+{
+    height: 70%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Email
+{
+    width: 20rem;
+    margin: 1rem;
+}
+.Password{
+    width: 20rem;
+    margin: 1rem;
+}
+.Email > *{
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.Password > *{
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.form
+{
+    margin: 2rem;
+    padding: 2rem;
+    box-shadow: 1px 3px 10px 3px black;
+    border-radius: 1rem;
+    background: #fff;
+    margin-top: 8rem;
+}
+.feild_error
+{
+    margin-top: 10px;
+    color: red;
+}
+
+
+/* Category sidebar css */
+.sidebar{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+ .sidebar a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover{
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+.openbtn:hover{
+    background-color: #444;
+}
+#main{
+    transition: margin-left .5s;
+    padding: 20px;
+    position: absolute;
+    left: 1rem;
+    padding-top:50px;
+}
+
+@media screen and (max-width:450px){
+    .sidebar {padding-top: 15px;}
+    .sidebar a{font-size: 18px;}
+} 
+
+
+/* footer page css */
+#footer{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    float: right;
+    transition: all ease-in .2s;
+    margin: 2rem 2rem;
+    padding: 1rem;
+    float: left;
+    width: 95%;
+    position: relative;
+    top: -2rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+#footer p{
+    position: relative;
+    top: 8px;
+}
+#body-sec{
+    background: #fff;
+    width: 95%;
+    height: auto;
+    float: right;
+    transition: all ease-in 0.2s;
+    margin: 2rem 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    overflow: auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-submit{
+    position: relative;
+    top: 1rem;
+    left: 38rem;
+}
+#table-style{
+    color: black;
+    border: 1px solid black;
+    margin-top: 2rem;
+    
+}
+/* Card title */
+#title{
+    height: 7rem;
+    width: 20rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    transition: margin-left .5s;
+}
+.bt{
+    font-size: 2rem;
+}
+.box-link{
+    font-size: 1rem;
+}
+.mc-container{
+    width: 70%;
+}
+.mc-container form{
+    width: 100%;
+}
+.mc-container .large{
+    width: 100%;
+}
+
+.btn-change{
+    color: white;
+    text-decoration: none;
+}
+.cat-image{
+    height: 200px;
+    width: 200px;
+}
+
